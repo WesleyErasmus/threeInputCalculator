@@ -1,0 +1,27 @@
+body {
+font-family: sans-serif;
+}
+form {
+display: block;
+margin: 0 auto;
+}
+input {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 20px;
+    margin: 10px;
+
+}
+button {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 0;
+    margin: 10px;
+}
+p {
+    width: 210px;
+    height: 210px;
+    background-color: aquamarine;
+}

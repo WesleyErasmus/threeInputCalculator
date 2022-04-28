@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS If Calculator</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <script src="/js/if-calculator.js"></script>
+    
+</head>
+<body>
+
+    <form onsubmit="return:false">
+        <label for="input1">Enter a number</label>
+         <input id="input1" type="text" name = "input1" placeholder="1, 2, 3, ..."> <!-- input-1 -->
+         <label for="input3">Enter operator</label>
+         <input id="input3" type="text" name = "input3" placeholder="+, -, *, ..."> <!-- input-3 (operator) -->
+         <label for="input2">Enter a number </label>
+         <input id="input2" type="text" name = "input2" placeholder="1, 2, 3, ..."> <!-- input-2 -->
+         <button onclick="numberValidation()">=</button>
+         <p id="output"></p> 
+    </form>
+    
+</body>
+</html>

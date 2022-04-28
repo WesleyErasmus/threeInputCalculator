@@ -1,0 +1,21 @@
+body {
+font-family: sans-serif;
+}
+form {
+display: block;
+margin: 0 auto;
+}
+input, button {
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+}
+/* .inputField {
+    width: 210px;
+    height: 110px;
+} */
+p {
+    width: 210px;
+    height: 210px;
+    background-color: aquamarine;
+}

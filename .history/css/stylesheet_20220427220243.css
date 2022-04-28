@@ -1,0 +1,14 @@
+body {
+    background-color: beige;
+}
+form {
+
+}
+input {
+    width: 80px;
+    height: 80px;
+}
+.inputField {
+    width: 100px;
+    height: 100px;
+}

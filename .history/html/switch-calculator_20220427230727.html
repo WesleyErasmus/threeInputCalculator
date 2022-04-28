@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Switch Calculator</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <script src="/js/switch-calculator.js" defer></script>
+</head>
+<body>
+    
+    <center>
+        <div id="topGradientBar"></div>
+        <form onsubmit="return false;">
+            <h1>Switch Statement Calculator</h1>
+             <input id="input1" type="text" name = "input1" placeholder="number"> <!-- input-1 -->
+             <input id="input3" type="text" name = "input3" placeholder="(+ - * /)"> <!-- input-3 (operator) -->
+             <input id="input2" type="text" name = "input2" placeholder="number"> <!-- input-2 -->
+            <div>
+             <button onclick="sum()">=</button>
+            </div>
+             <h1>Your answer:</h1>
+             <p id="output"></p> 
+        </form>
+        <div id="topGradientBar"></div>
+    </center>
+
+</body>
+</html>

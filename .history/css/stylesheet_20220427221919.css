@@ -1,0 +1,32 @@
+body {
+font-family: sans-serif;
+}
+form {
+display: block;
+margin: 0 auto;
+}
+input {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+button {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 0;
+    margin: 10px;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    vertical-align: middle;
+    width: 210px;
+    height: 210px;
+    font-size: 45px;
+    background-color: aquamarine;
+}

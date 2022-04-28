@@ -1,0 +1,22 @@
+body {
+font-family: sans-serif;
+}
+form {
+display: block;
+margin: 0 auot;
+}
+input, button {
+    font-size: ;
+    width: 300px;
+    height: 200px;
+    background-color: azure;
+}
+.inputField {
+    width: 310px;
+    height: 210px;
+}
+p {
+    width: 310px;
+    height: 310px;
+    background-color: aquamarine;
+}

@@ -1,0 +1,39 @@
+body {
+font-family: sans-serif;
+}
+form {
+display: block;
+margin: 0 auto;
+}
+input {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 5px solid;
+    border-style:outset;
+}
+button {
+    background-color: azure;
+    width: 200px;
+    height: 130px;
+    padding: 0;
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 30px;
+}
+p {
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin: 10px;
+    width: 200px;
+    height: 130px;
+    padding: 20px;
+    font-size: 75px;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
